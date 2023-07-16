@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <title> NotePad</title>
+  </head>
+  <body>
+    <div class="root">
+      <div class="main">
+        <h2>
+           <span style="color: rgb(126, 87, 194)">Note</span>Pad
+        </h2>
+        <input type="text" id="inputNote" placeholder="Note Title" />
+        <br />
+        <textarea id="textareaNote" placeholder="Write Note..."></textarea>
+        <br />
+        <div class="circles">
+          <div
+            class="rounded"
+            id="red"
+            style="background-color: rgb(240, 98, 146)"
+          >
+            <span class="confirmRed">✓</span>
+          </div>
+          <div
+            class="rounded"
+            id="purple"
+            style="background-color: rgb(186, 104, 200)"
+          >
+            <span class="confirmPurple">✓</span>
+          </div>
+          <div
+            class="rounded"
+            id="blue"
+            style="background-color: rgb(79, 195, 247)"
+          >
+            <span class="confirmBlue">✓</span>
+          </div>
+          <div
+            class="rounded"
+            id="orange"
+            style="background-color: rgb(255, 213, 79)"
+          >
+            <span class="confirmOrange">✓</span>
+          </div>
+          <div
+            class="rounded"
+            id="green"
+            style="background-color: rgb(174, 213, 129)"
+          >
+            <span class="confirmGreen">✓</span>
+          </div>
+          <button id="saveButton">Save ✓</button>
+        </div>
+        <div class="searchDiv">
+          <input type="text" placeholder="Write to search" id="searchInput" />
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
+            ></path>
+            <path
+              d="M11.412 8.586c.379.38.588.882.588 1.414h2a3.977 3.977 0 0 0-1.174-2.828c-1.514-1.512-4.139-1.512-5.652 0l1.412 1.416c.76-.758 2.07-.756 2.826-.002z"
+            ></path>
+          </svg>
+        </div>
+        <div id="cards">
+          <div id="defaultDiv">
+            <h4 color="rgba(186, 104, 200,0.4)">
+              Write a note.
+              <svg
+                id="defaultSvg"
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"
+                ></path>
+              </svg>
+            </h4>
+            <p>You have to write note title,note,and choose one color.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="links">
+          <a href="https://github.com/hajarhuseynova" target="_blank">
+            <img src="./image/githup.png" alt="GitHup" />
+          </a>
+          <a href="https://www.instagram.com/huseynovah_/" target="_blank">
+            <img src="./image/instagram.png" alt="Instagram" />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100073563522383"
+            target="_blank"
+          >
+            <img src="./image/facebook.png" alt="Facebook" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hajar-huseynova-2b7260267"
+            target="_blank"
+          >
+            <img src="./image/linkedin.png" alt="Linkedin" />
+          </a>
+          <a href="https://twitter.com/HecerHuseynova2" target="_blank">
+            <img src="./image/twitter.png" alt="Twitter" />
+          </a>
+          <a
+            href="https://github.com/hajarhuseynova/NotePad.git"
+            target="_blank"
+          >
+            <img src="./image/githupRepo.png" alt="GitHupRepo" />
+          </a>
+          <br />
+          <p class="wordsLink" style="margin-top: 25px">
+            <span style="opacity: 0.5; font-weight: bold; font-size: 20px"
+              >Designed & Built by</span
+            >
+            <br />
+            <a
+              href="https://www.linkedin.com/in/hajar-huseynova-2b7260267"
+              style="color: rgb(126, 87, 194)"
+              >Narmin Orujova</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

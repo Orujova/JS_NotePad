@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1400px) {
+  input,
+  textarea,
+  .circles {
+    width: 41%;
+  }
+  .searchDiv {
+    width: 42%;
+  }
+  #cards {
+    width: 75%;
+  }
+  .links {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  input,
+  textarea,
+  .circles {
+    width: 51%;
+  }
+  .searchDiv {
+    width: 52%;
+  }
+  #cards {
+    width: 80%;
+  }
+  .links {
+    width: 70%;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  input,
+  textarea,
+  .circles {
+    width: 71%;
+  }
+  #defaultDiv,
+  .card {
+    width: 280px;
+    height: 320px;
+    margin: 15px;
+  }
+  .searchDiv {
+    width: 72%;
+  }
+  #cards {
+    width: 85%;
+  }
+  .links {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  input,
+  textarea,
+  .circles,
+  .searchDiv,
+  #cards {
+    width: 90%;
+  }
+  #defaultDiv,
+  .card {
+    width: 260px;
+    height: 300px;
+    margin: 10px;
+  }
+  .links {
+    width: 90%;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .rounded {
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    transform: translateY(3px);
+  }
+}
+@media only screen and (max-width: 400px) {
+  .rounded {
+    width: 25px;
+    height: 25px;
+    margin-right: 0px;
+    transform: translateY(5px);
+  }
+  #defaultDiv,
+  .card {
+    width: 240px;
+    height: 280px;
+    margin: 10px 0px;
+  }
+}
